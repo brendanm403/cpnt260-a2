@@ -1,0 +1,79 @@
+/*********element styles *********/
+
+/* body styling/text fonts */
+body {
+  font-family: "Esteban", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+
+  background-color: hsl(0, 0%, 95%);
+
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* display fonts */
+h3, h5 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+/* centers card, contains clickable area */
+main {
+  margin: 5rem auto;
+  width: fit-content;
+}
+
+/********* class styles *********/
+
+.card-container {
+  background-color: hsl(349, 92%, 39%);
+  
+  margin: auto;
+  max-width: 35ch;
+
+  border: solid hsl(48, 89%, 50%);
+  border-radius: 1rem;
+}
+
+/* card hover effect */
+.card-container:hover {
+  background-color: hsl(349, 92%, 32%);
+  filter: drop-shadow(0 0 2rem hsl(349, 92%, 32%));
+}
+
+.card-img {
+  padding: 1rem 1rem 0.6rem 1rem;
+  max-width: 90%;
+  
+  border-radius: 25px;
+  
+  mix-blend-mode: normal;
+  clip-path: ellipse(210px 160px at 30% 50%);
+}
+  
+.card-title {
+  color:hsl(48, 89%, 50%);
+  
+  margin: 0 0 0 1rem;
+}
+
+/* position, number, team */
+.player-details {
+  color: hsl(0, 0%, 97%);
+  
+  margin: 0 0 1rem 1rem;
+}
+
+.card-text {
+  background-color: hsl(0, 0%, 97%);
+  color: hsl(0, 0%, 0%);
+  
+  margin: 0 auto 0.7rem auto;
+  max-width: 29ch;
+  padding: 1rem;
+  
+  border: solid #f1c40f;
+  border-radius: 1rem;
+}
