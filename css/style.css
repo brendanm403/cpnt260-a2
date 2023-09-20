@@ -52,19 +52,6 @@ main {
   mix-blend-mode: normal;
   clip-path: ellipse(210px 160px at 30% 50%);
 }
-  
-.card-title {
-  color:hsl(48, 89%, 50%);
-  
-  margin: 0 0 0 1rem;
-}
-
-/* position, number, team */
-.player-details {
-  color: hsl(0, 0%, 97%);
-  
-  margin: 0 0 1rem 1rem;
-}
 
 .card-text {
   background-color: hsl(0, 0%, 97%);
@@ -76,4 +63,17 @@ main {
   
   border: solid #f1c40f;
   border-radius: 1rem;
+}
+
+.card-title {
+  color:hsl(48, 89%, 50%);
+  
+  margin: 0 0 0 1rem;
+}
+
+/* position, number, team */
+.player-details {
+  color: hsl(0, 0%, 97%);
+  
+  margin: 0 0 1rem 1rem;
 }
