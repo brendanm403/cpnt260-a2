@@ -1,7 +1,7 @@
 # cpnt260 Assignment 2 - Single Card
 
 - Brendan Malycky
-- [repo-link](https://brendanm403.github.io/cpnt260-a2/)
+- [github-page](https://brendanm403.github.io/cpnt260-a2/)
 
 ## Above and Beyond
 
